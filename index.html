@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilos.css">
+    <title>Sistemas de notas</title>
+</head>
+<body>
+    <div class="contenerdor">
+        <div class="cabecera">
+            <h2>Sistema de notas</h2>
+        </div>
+        <form id="formulario" class="formulario" action="">
+            <div class="form-control">
+                <label for="identificacion">Identificacion</label>
+                <input id="identificacion" type="text" placeholder="Digite identificacion">
+                <p></p>
+            </div>
+            <div class="form-control">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" type="text" placeholder="Digite nombre completo">
+                <p></p>
+            </div>
+            <div class="form-control">
+                <label for="nota1">Nota 1</label>
+                <input id="nota1" type="text" placeholder="Digite nota de 0 a 5">
+                <p></p>
+            </div>
+            <div class="form-control">
+                <label for="nota2">Nota 2</label>
+                <input id="nota2" type="text" onkeypress="" placeholder="Digite nota de 0 a 5">
+                <p></p>
+            </div>
+
+            <button id="calcular" class="calcular">Calcular</button>
+            <button id="limpiar" class="limpiar" type="reset">Limpiar</button>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
